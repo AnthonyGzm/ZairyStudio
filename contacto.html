@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZAIRY STUDIO | Contacto</title>
+  <link rel="icon" href="img/icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="index.js" defer></script>
+  <!-- Font Awesome para los íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header id="main-header">
+    <div class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" role="button" tabindex="0">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="header-left">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-center">
+     <div class="logo-container">
+  <a href="index.html">
+    <img src="img/logo.png" alt="Zairy Studio logo" draggable="false">
+  </a>
+</div>
+    </div>
+
+    <div class="header-right">
+      <i class="fas fa-user"></i>
+      <i class="fas fa-search"></i>
+      <i class="fas fa-shopping-bag"></i>
+    </div>
+  </header>
+
+  <main style="padding-top:120px; max-width: 600px; margin: 0 auto; padding-left: 20px; padding-right: 20px;">
+    <section class="hero">
+      <h1>Contacto</h1>
+      <p>Estamos para ayudarte. Escríbenos y responderemos a la brevedad.</p>
+    </section>
+
+    <section style="margin-top: 40px;">
+      <form action="#" method="post" style="display: flex; flex-direction: column; gap: 15px;">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo" style="padding:10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" />
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required placeholder="Tu email" style="padding:10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;" />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí" style="padding:10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px; resize: vertical;"></textarea>
+
+        <button type="submit" style="background-color: var(--lavanda); color: white; padding: 12px; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; transition: background-color 0.3s;">
+          Enviar mensaje
+        </button>
+      </form>
+    </section>
+  </main>
+  <div>
+<h1></h1>
+  </div>
+  
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>ZAIRY STUDIO</h3>
+        <p>Bolsos artesanales hechos con pasión, detalle y estilo.</p>
+        <p>¿Quieres distribuir nuestra marca?<br />
+          Escríbenos a: <a href="mailto:zairystudio@gmail.com">zairystudio@gmail.com</a>
+        </p>
+        <p><i class="fab fa-whatsapp"></i> WhatsApp: 3316728730</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h3>MÁS INFORMACIÓN</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="index.html">Tienda</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>NEWSLETTER</h3>
+        <p>Suscríbete para conocer nuestras novedades, promociones y más.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Introduce tu email" required />
+          <button type="submit">SUSCRIBIRME</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 ZAIRY STUDIO. Todos los derechos reservados.</p>
+      <p>Diseñado por <a href="https://github.com/AnthonyGzm" target="_blank">AnthonyGzm</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZAIRY STUDIO | Tienda</title>
+  <link rel="icon" href="img/icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="index.js" defer></script>
+  <!-- Font Awesome para los íconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header id="main-header">
+  <!-- Botón hamburguesa: Moverlo a la izquierda para que sea visible primero en móvil -->
+  <div class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" role="button" tabindex="0">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Menú de navegación -->
+  <div class="header-left">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Logo centrado -->
+  <div class="header-center">
+    <div class="logo-container">
+  <a href="index.html">
+    <img src="img/logo.png" alt="Zairy Studio logo" draggable="false">
+  </a>
+</div>
+  </div>
+
+  <!-- Íconos derecha -->
+  <div class="header-right">
+    <i class="fas fa-user"></i>
+    <i class="fas fa-search"></i>
+    <i class="fas fa-shopping-bag"></i>
+  </div>
+</header>
+
+
+
+ <!-- Carrusel de imágenes -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <div class="slide active">
+        <img src="img/Carrusel1.png" alt="Bolso 1" />
+      </div>
+      <div class="slide">
+        <img src="img/carrusel2.png" alt="Bolso 2" />
+      </div>
+      <div class="slide">
+        <img src="img/carrusel3.png" alt="Bolso 3" />
+      </div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </section> 
+
+    <!-- Productos -->
+  <main>
+    <section class="hero">
+      <h1>Nuestros Favoritos</h1>
+      <p>Bolsos artesanales únicos que combinan diseño y tradición</p>
+    </section>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <img src="img/bolso1.jpg" alt="Bolso 1" />
+        <h2>Bolso Salome</h2>
+        <p>$1,499.00</p>
+      </article>
+      <article class="product-card">
+        <img src="img/Bolso2.png" alt="Bolso 2" />
+        <h2>Bolso Artesanal Clasico</h2>
+        <p>$1,200.00</p>
+      </article>
+      <article class="product-card">
+        <img src="img/Bolso3.png" alt="Bolso 3" />
+        <h2>Mini Bolso de Mano</h2>
+        <p>$899.00</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Testimonios -->
+  <section class="testimonials">
+    <h2>Lo que dicen nuestras clientas</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <p>"Me encantó el diseño artesanal, se nota la dedicación. ¡Volveré a comprar!"</p>
+        <h4>— Carla M.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"La calidad es excelente y el empaque fue precioso. 100% recomendado."</p>
+        <h4>— Diana L.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Una experiencia hermosa desde que entré a la web hasta que recibí mi bolso."</p>
+        <h4>— Sofía R.</h4>
+      </div>
+    </div>
+  </section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <!-- Columna 1: Descripción -->
+    <div class="footer-column">
+      <h3>ZAIRY STUDIO</h3>
+      <p>Bolsos artesanales hechos con pasión, detalle y estilo.</p>
+      <p>¿Quieres distribuir nuestra marca?<br>
+         Escríbenos a: <a href="mailto:zairystudio@gmail.com">zairystudio@gmail.com</a>
+      </p>
+      <p><i class="fab fa-whatsapp"></i> WhatsApp: 3316728730</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      </div>
+    </div>
+
+    <!-- Columna 2: Enlaces -->
+    <div class="footer-column">
+      <h3>MÁS INFORMACIÓN</h3>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna 3: Newsletter -->
+    <div class="footer-column">
+      <h3>NEWSLETTER</h3>
+      <p>Suscríbete para conocer nuestras novedades, promociones y más.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Introduce tu email" required>
+        <button type="submit">SUSCRIBIRME</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Créditos -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 ZAIRY STUDIO. Todos los derechos reservados.</p>
+    <p>Diseñado por <a href="https://github.com/AnthonyGzm" target="_blank">AnthonyGzm</a></p>
+  </div>
+</footer>
+
