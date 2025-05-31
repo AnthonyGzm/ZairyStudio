@@ -38,10 +38,6 @@ Whether it's for showcasing products or representing a unique brand story, Zairy
 
 This project is for educational purposes and does not include licensing for commercial use of brand assets or images.
 
-## 🙌 Acknowledgments
-
-Thanks to the professors and peers involved in the university project.
-
 ## 🧵 Development by
 
 Anthony Guzmán
